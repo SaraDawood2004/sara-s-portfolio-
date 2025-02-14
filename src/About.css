@@ -1,0 +1,44 @@
+.about-container {
+    padding: 2rem;
+    background-color: #000000;
+    text-align: center;
+  }
+  
+  .about-container h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .about-content p {
+    flex: 1;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #ffffff;
+    text-align: left; /* Aligns text to the left */
+  }
+  
+  .about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-image img {
+    width: 350px; /* Set a fixed width */
+    height: 350px; /* Set a fixed height */
+    border-radius: 50%; /* Makes the image circular */
+    box-shadow: 0 0 10px #9b4de1, 0 0 20px #ff6f61, 0 0 30px #e461fb; /* Glow effect */
+    object-fit: cover; /* Ensures the image fits within the circle without distortion */
+}
+
+  

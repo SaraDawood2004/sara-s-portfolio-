@@ -1,0 +1,131 @@
+/* Gradient background from purple to black and pink */
+.home-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black; /* Purple, Black, and Pink */
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif; /* Example font */
+  }
+  
+  /* Animated typing effect */
+  @keyframes typing {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  .home-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid white; /* Simulates typing */
+    animation: typing 4s steps(30) 1s forwards, blink 0.75s step-end infinite;
+  }
+  
+  /* Subtitle styling */
+  .home-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 300;
+  }
+  
+  /* Button Styling */
+  .btn-primary, .btn-secondary {
+    margin: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  /* Primary button with gradient color */
+  .btn-primary {
+    background: linear-gradient(135deg, #9b4de1, #ff6f61); /* Gradient background */
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Secondary button with subtle hover effect */
+  .btn-secondary {
+    background-color: #fff;
+    color: #526894;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .btn-primary:hover{
+    background: linear-gradient(135deg, #ff6f61, #9b4de1); /* Reversed gradient on hover */
+
+  }
+  
+  .btn-primary:hover, .btn-secondary:hover {
+    transform: scale(1.05); /* Slightly scale the buttons on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker shadow for hover effect */
+  }
+  
+  .btn-primary:active, .btn-secondary:active {
+    transform: scale(1); /* Button scale effect when clicked */
+  }
+  
+  /* Small design enhancements */
+  .home-content {
+    animation: fadeIn 2s ease-in-out;
+    transform: translateY(20px);
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Additional font styling for interactivity */
+  
+  /* Gradient styling for the name */
+/* Gradient styling for the name */
+.gradient-name {
+  background: linear-gradient(135deg, #9b4de1, #ff6f61);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Makes the gradient visible */
+  font-weight: bold;
+}
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  70% {
+    width: 100%;
+  }
+  100% {
+    width: 100%; /* Pause after typing */
+  }
+}
+
+@keyframes blink {
+  0%, 50% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+
+
+
+
+
+
+

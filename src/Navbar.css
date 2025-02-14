@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: black;
+    font-family: 'Poppins', sans-serif; /* Example font */
+  }
+  
+  .logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .logo:hover {
+    text-shadow: 0 0 10px #9b4de1, 0 0 20px #ff6f61, 0 0 30px #e461fb;
+    color: white;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+  }
+  
+  li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  li:hover {
+    transform: scale(1.15); /* Slightly enlarges the entire list item on hover */
+  }
+  
+  li a:hover {
+    text-shadow: 0 0 20px #9b4de1, 0 0 30px #ff6f61, 0 0 40px #e461fb;
+    color: #ffffff; /* Changes the color of the text on hover */
+  }
+  
+  li a:active {
+    text-shadow: 0 10 10px #9b4de1, 0 0 20px #ff6f61, 0 0 30px #e461fb;
+    transform: scale(1.1); /* Adds a slight scale effect on click */
+  }
+  

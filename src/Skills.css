@@ -1,0 +1,28 @@
+.skills-container {
+    padding: 2rem;
+    background-color: #000000;
+    text-align: center;
+  }
+  .skills-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .skills-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
+  }
+  .skills-container li {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(135deg, #9b4de1, #ff6f61); /* Gradient background */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .skills-container li :hover {
+    background: linear-gradient(135deg, #ff6f61, #9b4de1); /* Reversed gradient on hover */
+  }

@@ -1,0 +1,54 @@
+/* Body Styles */
+body {
+  background-color: black; /* Set background to black */
+  color: white; /* Set text color to white */
+  font-family: 'Poppins', sans-serif; /* Example font */
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+/* Projects Container Styles */
+.projects-container {
+  padding: 1rem;
+  background-color: #000000;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap onto new lines if necessary */
+  justify-content: center; /* Center the cards horizontally */
+}
+
+/* Heading Styles */
+.projects-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Project Card Styles */
+.project-card {
+  background: linear-gradient(135deg, #9b4de1, #ff6f61); /* Gradient background */
+  color: white; /* Set text color to white */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  width: 300px;
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column; /* Ensure text inside the card is stacked vertically */
+  justify-content: left; /* Center the content vertically */
+  align-items: left; /* Center the content horizontally */
+  cursor: pointer; /* Indicate clickability */
+}
+
+/* Hover effect on Project Cards */
+.project-card:hover {
+  background: linear-gradient(135deg, #ff6f61, #9b4de1); /* Reversed gradient on hover */
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
